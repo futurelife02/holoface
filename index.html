@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '949667338033274');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=949667338033274&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOLO+FACE | 數位修圖助理 招募中</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            light: `#F8F7F2`, // 米白色
+                            dark: `#202020`,  // 深灰色
+                            accent: `#A69177` // 品牌輔助金屬色調
+                        }
+                    },
+                    fontFamily: {
+                        sans: [`Poppins`, `Noto Sans TC`, `sans-serif`],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #F8F7F2;
+            color: #202020;
+            overflow-x: hidden;
+        }
+        .hero-gradient {
+            background: linear-gradient(180deg, #202020 0%, #333333 100%);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(32, 32, 32, 0.05);
+        }
+        .cta-button {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+        .section-divider {
+            width: 40px;
+            height: 1px;
+            background-color: #A69177;
+            margin: 1.5rem auto;
+        }
+        .kuse-branding {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            font-size: 14px;
+            color: #9C9C9C;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            margin-top: 2rem;
+            padding-bottom: 2rem;
+        }
+        .kuse-branding:hover {
+            color: #202020;
+        }
+        .kuse-branding svg {
+            height: 1.2em;
+        }
+    </style>
+</head>
+<body class="font-sans">
+
+    <!-- Header / Top CTA -->
+    <nav class="fixed top-0 left-0 right-0 z-50 px-4 py-3 flex justify-center">
+        <a href="https://lin.ee/t0wtHrX" class="cta-button bg-brand-dark text-white text-sm font-bold py-3 px-8 rounded-full tracking-wider">
+             立即點擊應徵
+        </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-gradient min-h-[60vh] flex flex-col items-center justify-center text-center px-6 pt-20">
+        <div class="space-y-4">
+            <span class="text-brand-accent tracking-[0.3em] text-sm font-medium">RECRUITMENT</span>
+            <h1 class="text-white text-3xl md:text-4xl font-bold leading-tight">
+                HOLO+FACE<br>
+                <span class="text-2xl md:text-3xl font-light opacity-90">數位修圖助理 招募中</span>
+            </h1>
+            <div class="w-12 h-[2px] bg-brand-accent mx-auto mt-6"></div>
+        </div>
+    </header>
+
+    <main class="max-w-md mx-auto px-6 -mt-16 pb-20">
+        <!-- Brand Introduction -->
+        <section class="glass-card rounded-[20px] p-8 mb-8 relative z-10 shadow-sm">
+            <h2 class="text-xl font-bold mb-4 text-center">品牌精神</h2>
+            <p class="text-gray-600 leading-relaxed text-sm text-center">
+                HOLO+FACE 是全台韓式證件照的領導品牌，我們主張「讓每個人都能擁有最美的第一印象」。透過專業的審美與細膩的後製，捕捉每一位客戶最自信的瞬間。
+            </p>
+            <div class="section-divider"></div>
+            <p class="text-gray-600 leading-relaxed text-sm text-center font-medium">
+                當照片進入最後的質感階段，我們需要對美感有執著、對細節著迷的你。坐在電腦前修照片，也可以為自己提高產值！
+            </p>
+        </section>
+
+        <!-- Middle Image Asset -->
+        <div class="rounded-[16px] overflow-hidden mb-12 shadow-lg border border-white">
+            <img src="https://api.kuse.ai/api/folder/v1/file/f444543d93eebbc96aa7d29b2b1152f4534586feab02c26371342f8bfc66905b_3018829.png" 
+                 alt="HOLO+FACE Professional Retouching" 
+                 class="w-full h-auto object-cover">
+        </div>
+
+        <!-- Role Value -->
+        <section class="mb-12 text-center">
+            <h2 class="text-brand-accent text-xs tracking-widest uppercase mb-2">Role Value</h2>
+            <h3 class="text-xl font-bold mb-4">為什麼我們需要你？</h3>
+            <p class="text-gray-600 text-sm leading-loose">
+                HOLO+FACE 堅持每一張交到客戶手中的照片都必須完美。<br>
+                你將是賦予照片全新生命的魔術師，<br>
+                在快節奏的工作中維持極致的高級感。
+            </p>
+        </section>
+
+        <!-- Job Content -->
+        <section class="bg-white rounded-[20px] p-8 mb-8 border border-[rgba(32,32,32,0.05)]">
+            <div class="flex items-center gap-3 mb-6">
+                <div class="w-1 h-6 bg-brand-dark"></div>
+                <h2 class="text-lg font-bold">工作內容</h2>
+            </div>
+            <ul class="space-y-4 text-sm text-gray-700">
+                <li class="flex gap-3">
+                    <span class="text-brand-accent">✔</span>
+                    <span><strong>細緻膚質調整：</strong>處理暗沉、修除瑕疵與痘痘</span>
+                </li>
+                <li class="flex gap-3">
+                    <span class="text-brand-accent">✔</span>
+                    <span><strong>色調氛圍校對：</strong>將色偏調校成高級感的質感濾鏡</span>
+                </li>
+                <li class="flex gap-3">
+                    <span class="text-brand-accent">✔</span>
+                    <span><strong>檔案規格輸出：</strong>依照 SOP 裁切大小與優化檔案</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Working Hours -->
+        <section class="bg-white rounded-[20px] p-8 mb-8 border border-[rgba(32,32,32,0.05)]">
+            <div class="flex items-center gap-3 mb-6">
+                <div class="w-1 h-6 bg-brand-dark"></div>
+                <h2 class="text-lg font-bold">工作時間</h2>
+            </div>
+            <div class="grid grid-cols-1 gap-4 text-sm">
+                <div class="p-4 bg-brand-light rounded-xl">
+                    <p class="font-bold text-brand-dark mb-1">📅 固定休週末</p>
+                    <p class="text-gray-500">週一至週五配合排班</p>
+                </div>
+                <div class="p-4 bg-brand-light rounded-xl">
+                    <p class="font-bold text-brand-dark mb-1">⏰ 彈性排班制</p>
+                    <p class="text-gray-500">每日 4 小時，每週排滿約定時數即可</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Salary & Rewards -->
+        <section class="bg-brand-dark text-white rounded-[20px] p-8 mb-8">
+            <div class="flex items-center gap-3 mb-6">
+                <div class="w-1 h-6 bg-brand-accent"></div>
+                <h2 class="text-lg font-bold">薪資與獎勵</h2>
+            </div>
+            <div class="space-y-6">
+                <div class="flex justify-between items-end border-b border-gray-700 pb-4">
+                    <span class="text-gray-400 text-sm">專業時薪</span>
+                    <span class="text-xl font-bold text-brand-accent">NT$290 – $330</span>
+                </div>
+                <div class="flex justify-between items-end border-b border-gray-700 pb-4">
+                    <span class="text-gray-400 text-sm">技術加成 (最高)</span>
+                    <span class="text-xl font-bold text-brand-accent">NT$385 / hr</span>
+                </div>
+                <ul class="space-y-3 text-xs text-gray-300 opacity-80 pt-2">
+                    <li class="flex gap-2"><span>•</span> 產值獎金：達標立即開啟計件加碼模式</li>
+                    <li class="flex gap-2"><span>•</span> 員購福利：享有全系列拍攝專屬折扣</li>
+                    <li class="flex gap-2"><span>•</span> 技術成長：學習品牌核心修片 SOP，累積作品集</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Requirements -->
+        <section class="bg-white rounded-[20px] p-8 mb-12 border border-[rgba(32,32,32,0.05)]">
+            <div class="flex items-center gap-3 mb-6">
+                <div class="w-1 h-6 bg-brand-dark"></div>
+                <h2 class="text-lg font-bold">應徵條件</h2>
+            </div>
+            <div class="space-y-4">
+                <div class="flex items-start gap-4">
+                    <div class="w-6 h-6 rounded-full bg-brand-light flex items-center justify-center flex-shrink-0">
+                        <span class="text-xs font-bold">01</span>
+                    </div>
+                    <p class="text-sm text-gray-700 pt-1">對影像處理、修圖有高度熱忱的人</p>
+                </div>
+                <div class="flex items-start gap-4">
+                    <div class="w-6 h-6 rounded-full bg-brand-light flex items-center justify-center flex-shrink-0">
+                        <span class="text-xs font-bold">02</span>
+                    </div>
+                    <p class="text-sm text-gray-700 pt-1">熟悉修圖軟體、具備基本審美與色感的人</p>
+                </div>
+                <div class="flex items-start gap-4">
+                    <div class="w-6 h-6 rounded-full bg-brand-light flex items-center justify-center flex-shrink-0">
+                        <span class="text-xs font-bold">03</span>
+                    </div>
+                    <p class="text-sm text-gray-700 pt-1">追求高產值、能耐心專注於細節的人</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bottom CTA -->
+        <div class="text-center space-y-6">
+            <p class="text-gray-400 text-xs tracking-widest">READY TO JOIN US?</p>
+            <a href="https://lin.ee/t0wtHrX" class="cta-button inline-block bg-brand-dark text-white text-lg font-bold py-5 px-12 rounded-full tracking-wider w-full">
+                 立即點擊應徵
+            </a>
+            <p class="text-gray-400 text-[10px] mt-4">© 2024 HOLO+FACE. All Rights Reserved.</p>
+        </div>
+
+      
+
+    <script src="https://cdn.kuse.ai/sdk.prd.js"></script>
+    <script>
+        // Smooth scroll for internal links if any
+        document.querySelectorAll(`a[href^="#"]`).forEach(anchor => {
+            anchor.addEventListener(`click`, function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute(`href`)).scrollIntoView({
+                    behavior: `smooth`
+                });
+            });
+        });
+
+        // Simple animation on scroll
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = `1`;
+                    entry.target.style.transform = `translateY(0)`;
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll(`section, .rounded-[16px]`).forEach(el => {
+            el.style.opacity = `0`;
+            el.style.transform = `translateY(20px)`;
+            el.style.transition = `all 0.6s ease-out`;
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
